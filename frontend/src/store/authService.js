@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = `${process.env.REACT_APP_API_URL}/api/auth/`;
+const API_URL = "http://3.109.208.39:5001/api/auth/";
 
 
 const register = async (userData) => {
